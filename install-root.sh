@@ -2,7 +2,7 @@
 sudo pacman -Syu
 
 #Install dependencies
-sudo pacman -S git stow btop dunst hyprland kitty waybar wofi zsh curl udiskie grim slurp wl-clipboard thunar zoxide tmux inotify-tools neovim firefox NetworkManager base-devel ttf-jetbrains-mono-nerd x11-xserver-utils
+sudo pacman -Sy git stow btop dunst hyprland kitty waybar wofi zsh curl udiskie grim slurp wl-clipboard thunar zoxide tmux inotify-tools neovim firefox networkmanager base-devel ttf-jetbrains-mono-nerd autorandr pulseaudio network-manager-applet
 
 #Sddm theme 
 sudo touch /etc/sddm.conf
