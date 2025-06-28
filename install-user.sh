@@ -18,5 +18,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 #Dotfiles
 git clone https://github.com/timvnaarden/dotfiles ~/dotfiles
 cd ~/dotfiles
-stow .
+stow --adopt .
+git reset --hard
 cd ..
